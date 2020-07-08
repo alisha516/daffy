@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body{
+    display:grid;
+    grid-template-columns:200px 1fr;
+    grid-template-rows:100px 900px; 
+}
+
+h1{
+    grid-row:1;
+    grid-column:2;
+    margin-left: 800px;
+    display:none;
+}
+
+p{
+    grid-row:2;
+    grid-column:2;
+    margin-left:500px;
+    margin-top:100px;
+    /* display:none; */
+}
+
+img{
+    margin-top: 10px;
+}
+
+.fruits{
+    display:flex;
+    flex-direction:column;
+    grid-column:1;
+    grid-row:2;
+}
+
+#samal-big{
+    grid-row:2;
+    grid-column:2;
+    display:none;
+    height: 700px;
+    width: 700px;;
+}
+
+#Samsonite{
+    grid-row:2;
+    grid-column:2;
+    color: blue;
+    font-size: larger;
+    border: 1px solid pink;
+    
+}
+
+</style>
+<body>
+
+<h1 style="color:lightseagreen">Samsonite Bag The, Hero22222222!</h1>
+
+<!-- <p style="color:black;">Samsonite bags are our best heros, 
+    better than even a bite of not tasty capsicum.
+    Now lets take a look at some Samsonite bags.</p> -->
+
+<p id="Samsonite" >ljhhhhhh jfi</p>
+
+<div class="fruits">
+<img src="samal.jpg" onclick="document.getElementById('samal-big').style.display='block'" style="border: crimson 5px solid; height:130px; width:130px;">
+
+<img src="image.webp" style="border:darkorange 5px solid; height:130px; width:130px;">
+
+<img src="silver sam.jpg" style="border: chocolate 5px solid; height:130px; width:130px;">
+
+<img src="small.jpg" style="border: hotpink 5px solid; height:130px; width:130px;">
+
+<img src="blue dark sam.jpg" style="border:cornflowerblue 5px solid; height:130px; width:130px;">
+
+<img src="sami.jpg" style="border:chartreuse 5px solid; height:130px; width:130px;">
+
+<img src="green sam.jpg" style="border:blueviolet 5px solid; height:130px; width:130px;">
+
+</div>
+
+<img src="sam.jpg" style="display:none; border:greenyellow 5px solid; height:80px; width:80px; grid-row:1; grid-column:2; margin-left:700px;">
+
+<img src="samo.jpg" id="samo" style="display:none; border:midnightblue solid 10px; height:900px; width:800px; grid-row:2; grid-column:2; margin-right:600px; margin-left:1000px; margin-top:130px;">
+
+<img src="samal.jpg" id="samal-big">
+
+<img onclick="document.getElementById('samal-big').style.display='block'; ">
+
+
+</body>
+</html>
